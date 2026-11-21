@@ -4,14 +4,14 @@
 
 Count activity segments while bridging short internal silences. This Blyx library is part of the vision, audio and speech collection.
 
-A brief pause inside an utterance can split a segment. Accept a caller-selected gap and preserve the original time axis. [librosa, splitting a signal into active intervals](https://librosa.org/doc/latest/generated/librosa.effects.split.html)
+A brief pause inside an utterance can split a segment. Accept a caller-selected gap and preserve the original time axis. [librosa, splitting a signal into active intervals](https://librosa.org/doc/0.11.0/generated/librosa.effects.split.html)
 
 ## Install and run
 
 Install [Blyx 0.2.1](https://www.blyx-lang.space/download) with a Rust toolchain and host linker for native builds.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-gaphold.git
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-gaphold.git
 cd blyx-gaphold
 blyxc native-run example.blyx
 blyxc native-run tests.blyx
@@ -24,7 +24,7 @@ blyxc native-run tests.blyx
 Run this in the directory containing your application's entry file.
 
 ```sh
-git clone --depth 1 --branch v0.1.0 https://github.com/Rahulchaube1/blyx-gaphold.git vendor/gaphold
+git clone --depth 1 --branch v0.1.1 https://github.com/Rahulchaube1/blyx-gaphold.git vendor/gaphold
 ```
 
 ```blyx
